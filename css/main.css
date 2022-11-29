@@ -199,6 +199,12 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .benefits__card-title {
+    text-align: left;
+  }
 }
 .benefits__text {
   margin-top: 0;
@@ -749,8 +755,8 @@ img {
           align-items: center;
   color: var(--additional-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
   text-decoration: none;
   gap: 10px;
@@ -763,6 +769,12 @@ img {
 }
 .header__contacts-link:hover, .header__contacts-link:focus {
   color: var(--accent-text-color);
+}
+@media screen and (min-width: 768px) {
+  .header__contacts-link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header__contacts-link {
@@ -980,7 +992,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 32px;
-  margin-bottom: 306px;
+  margin-bottom: auto;
 }
 .mobile-menu__nav-link {
   color: var(--primary-text-color);
@@ -1372,13 +1384,20 @@ img {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: var(--primary-text-color);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .section-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 /* Наша команда */
